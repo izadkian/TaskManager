@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_detail_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_gradient"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".controller.TaskDetailFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tasks_detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Task Details"
+        app:titleTextColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/task_id_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC287D"
+        android:gravity="center"
+        android:text="@string/task_id_textview"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/task_id_data_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/task_name_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC287D"
+        android:gravity="center"
+        android:text="@string/task_name_textview"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/task_name_data_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/task_desc_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC287D"
+        android:gravity="center"
+        android:text="@string/task_description_textview"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/task_desc_data_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/task_state_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC287D"
+        android:gravity="center"
+        android:text="@string/task_state_textview"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/task_state_data_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/task_date_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC287D"
+        android:gravity="center"
+        android:text="@string/task_date_textview"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/task_date_data_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/task_time_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC287D"
+        android:gravity="center"
+        android:text="@string/time_tv"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/task_time_data_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</LinearLayout>

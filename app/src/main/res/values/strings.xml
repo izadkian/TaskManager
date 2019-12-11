@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TaskManager</string>
+    <string name="to_do_tab">ToDo</string>
+    <string name="doing_tab">Doing</string>
+    <string name="done_tab">Done</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="task_id_textview">Task ID</string>
+    <string name="task_name_textview">Name</string>
+    <string name="task_date_textview">Date</string>
+    <string name="task_state_textview">State</string>
+    <string name="task_description_textview">Description</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username_textview">Username</string>
+    <string name="username_edittext_hint">Your Name</string>
+    <string name="password_edittext_hint">Your Password</string>
+    <string name="password_textview">Password</string>
+    <string name="singup_button">Singup</string>
+    <string name="or_textview">Or</string>
+    <string name="login_button">Login</string>
+    <string name="no_tasks_textview">No tasks yet</string>
+    <string name="floating_action_btn">submit</string>
+    <string name="add_task_dialog">Add new task</string>
+    <string name="dialog_add_button">Add</string>
+    <string name="task_state_add_task_fragment">Task State</string>
+    <string name="task_description_add_task_fragment">Task Description</string>
+    <string name="task_name_add_task_fragment">Task Name</string>
+    <string name="to_do_radio">To Do</string>
+    <string name="doing_radio">Doing</string>
+    <string name="done_radio">Done</string>
+    <string name="wrong_user">The Username or password is wrong. Please check it or Signup!</string>
+    <string name="successful_login">You are Logged in successfully!</string>
+    <string name="empty_name_pass">The username or password can not be empty.</string>
+    <string name="not_available_username">The user name is not available. Please select another.</string>
+    <string name="successful_signup">You signed up successfully! now you can login to the app.</string>
+    <string name="main_frag_tag">MAIN</string>
+    <string name="date_tv">Date</string>
+    <string name="time_tv">Time</string>
+    <string name="search_icon">search_icon</string>
+    <string name="logoff_icon">logoff_icon</string>
+    <string name="delete_icon">delete_icon</string>
+    <string name="login_fragment_tag">LOGIN</string>
+    <string name="searchview_hint">Search</string>
+    <string name="main_frag_wellcome">Wellcome</string>
+    <string name="delete_iv">Delete</string>
+</resources>
